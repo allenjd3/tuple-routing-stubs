@@ -12,5 +12,19 @@
             "homepage": "https://allenjd3.github.io",
             "role": "Developer"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {"Allenjd3\\TupleRoute\\": "src/"}
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Allenjd3\\TupleRoute\\TupleRouteServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    }
+
 }
