@@ -1,6 +1,6 @@
 <?php
 
-namespace Allenjd3\TupleRoute;
+namespace Allenjd3\TupleRoute\Commands;
 
 use Illuminate\Console\Command;
 
