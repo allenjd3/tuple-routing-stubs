@@ -19,11 +19,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Allenjd3\\TupleRoutes\\TupleRouteServiceProvider"
+                "Allenjd3\\TupleRoute\\TupleRoutesServiceProvider"
             ],
-            "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
-            }
         }
     }
 
