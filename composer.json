@@ -1,0 +1,16 @@
+{
+    "name": "allenjd3/tuple-routing-stubs",
+    "type": "library",
+    "description": "This package allows you to stub out tuple or array routing on fresh installs of laravel",
+    "keywords": ["tuple","laravel","routing"],
+    "homepage": "https://allenjd3.github.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Allen",
+            "email": "james.allen081713@gmail.com",
+            "homepage": "https://allenjd3.github.io",
+            "role": "Developer"
+        }
+    ]
+}
