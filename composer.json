@@ -5,10 +5,6 @@
     "keywords": ["tuple","laravel","routing"],
     "homepage": "https://allenjd3.github.io",
     "license": "MIT",
-    "require":{
-        "php": "^7.2",
-        "laravel/laravel": "^5.6" 
-    },
     "authors": [
         {
             "name": "James Allen",
