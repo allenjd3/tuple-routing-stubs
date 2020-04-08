@@ -2,6 +2,7 @@
 
 namespace Allenjd3\TupleRoute\Commands;
 
+
 use Illuminate\Console\Command;
 
 class TupleRoutesCommand extends Command
