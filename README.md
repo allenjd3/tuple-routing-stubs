@@ -15,3 +15,7 @@ The package should be autodescovered.
 warning: this action will change RouteServiceProvider.php and routes/web.php. Any previous changes will be lost so I recommend only using this on fresh installs.
 
 note: laravel-ui is recommended for auth routes mainly for the auth controllers.
+
+## To run the database stubs as well
+
+    php artisan stub:tuple --database

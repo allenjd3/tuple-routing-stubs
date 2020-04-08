@@ -12,7 +12,7 @@ class TupleRoutesCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'stub:tuple';
+    protected $signature = 'stub:tuple {--database}';
 
     /**
      * The console command description.
@@ -51,7 +51,20 @@ class TupleRoutesCommand extends Command
             {
                 $this->info('Successfully Copied RouteServiceProvider Stub'); 
             }
+            if($this->option('database'))
+            {
+                if(copy(dirname(__FILE__) . '/stubs/env.stub', base_path() . '/.env'))
+                {
+                    $this->info('Successfully Copied ENV file'); 
+                } 
+
+                if(copy(dirname(__FILE__) . '/stubs/database.sqlite.stub', base_path() . '/database/database.sqlite'))
+                {
+                    $this->info('Successfully Copied database.sqlite'); 
+                }
+            }
 
         } 
+
     }
 }
