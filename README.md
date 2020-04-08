@@ -2,7 +2,7 @@
 
 I recommend you use this with laravel 5.6 or above.
 
-to install-
+## to install-
 
     composer require allenjd3/tuple-routing-stubs
 
